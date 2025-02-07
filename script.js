@@ -1,22 +1,22 @@
 // ADD Two Numbers
-// const num1 = 5;
-// const num2 = 3;
-// const sum = num1 + num2;
-// console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum); //The sum of 5 and 3 is: 8
+const num1 = 5;
+const num2 = 3;
+const sum = num1 + num2;
+console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum); //The sum of 5 and 3 is: 8
 
 // ......................................................................................................................................
 
 
 //Find if the conditions are obeyed or not?
-// let x = 10;
-// let y = 20;
-// if (x < y) {
-//   console.log("x is less than y");
-// } else if (x > y) {
-//   console.log("x is greater than y");
-// } else {
-//   console.log("x is equal to y");//x is less than y
-// }
+ let x = 10;
+ let y = 20;
+ if (x < y) {
+  console.log("x is less than y");
+  } else if (x > y) {
+   console.log("x is greater than y");
+  } else {
+   console.log("x is equal to y");//x is less than y
+  }
 
 //..............................................................................................................................................
 
@@ -26,8 +26,9 @@
 // 2. if both are not divisible by 10 console false.
 // 3. if one of them only is divisible by 10 console true
 
-// let A = 20, B = 50; 
-// console.log((A % 10 === 0) || (B % 10 === 0));//true
+  let A = 20, 
+  let B = 50; 
+  console.log((A % 10 === 0) || (B % 10 === 0));//true
 
 
 
@@ -39,11 +40,11 @@
 // number.
 // Note: You have to complete First_Digit function. No need to take any input.
 
-// let N = 1234; 
+ let N = 1234; 
 
-// let firstDigit = Math.floor(N / 1000);
+ let firstDigit = Math.floor(N / 1000);
 
-// console.log(firstDigit);//1
+ console.log(firstDigit);//1
 
 
 
@@ -55,19 +56,11 @@
 // number.
 // Note: You have to complete Last_Digit function. No need to take any input.
 
-// let N = 1234; 
+ let N = 1234; 
 
-// let lastDigit = N % 10;
+ let lastDigit = N % 10;
 
-// console.log(lastDigit);//4
-
-
-
-
-
-
-
-
+ console.log(lastDigit);//4
 
 //..............................................................................................................................................
 
@@ -78,43 +71,29 @@
 // Note: You have to complete Find_the_remainder function. No need to take any input.
 
 
-// let A = 5; 
-// let B = 12; 
+ let A = 5; 
+ let B = 12; 
 
-// let remainder = B % A;
+ let remainder = B % A;
 
-// console.log(remainder);//2
-
-
-
-
-
-
-
-
-
+ console.log(remainder);//2
 
 //.............................................................................................................................................
-
-
 
 
 // Multiply two Numbers
 // You are provided with two numbers A?and B?. Your task is to multiply these two numbers.
 // Note: You have to complete Multiply_two_number function. No need to take any input.
 
-// let A = 5;
-// let B = 10; 
+ let A = 5;
+ let B = 10; 
 
-// let result = A * B;
+ let result = A * B;
 
-// console.log(result);//50
+ console.log(result);//50
 
 
 //..............................................................................................................................................
-
-
-
 
 // Marks Calculator
 // Shyam has got his marks in three subjects as A?, B?, and C?(out of 100).Write a program to
@@ -126,12 +105,8 @@ let A = 85;
 let B = 90; 
 let C = 80; 
 
-
 let total = A + B + C;
-
-
 let average = total / 3;
-
 
 console.log("Total Marks:", total);
 console.log("Average Marks:", average);
